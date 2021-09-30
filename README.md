@@ -18,8 +18,8 @@
 
 #### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy? template=https://github.com/Cinemavillaz/motechrepoforcb)
-Hi
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Cinemavillaz/motechrepoforcb)
+
 #### Hard Way
 ```bash
 # Create virtual environment
