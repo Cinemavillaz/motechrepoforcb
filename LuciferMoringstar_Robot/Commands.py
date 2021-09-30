@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('📡 ᴜᴘᴅᴀᴛᴇꜱ 📡', url='t.me/CV_updatez')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('🔍 ꜱᴇᴀᴄʜ ᴀɢᴀɪɴ 🔎', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -118,11 +118,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/MT_Botz")
+                InlineKeyboardButton("ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("🔊 ᴊᴏɪɴ", url='t.me/Cinema_Beacon_Group')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("📹 ʙᴀᴄᴋᴜᴘ ɢʀᴘ 📹", url='t.me/Cinema_Beacon_Group1'),
+                InlineKeyboardButton("📡 ᴜᴘᴅᴀᴛᴇꜱ 📡", url='t.me/CV_updatez')
                 ]]
             )
         )
